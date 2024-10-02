@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapped-image {
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 2px solid #ddd;
+}
+
+p {
+    line-height: 1.6;
+}
