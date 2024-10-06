@@ -160,18 +160,14 @@ footer {
 .contact-info {
   
    
-   
+    padding: 10px;
     background-color: gray(77, 74, 69);
-
+    border-radius: 8px;
     font-size: x-large;
-    border: 0.7px solid #0d4b9c;
     
-    
-    
+  
    
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    
-    
+   
   
 }
 
@@ -193,6 +189,7 @@ h1 {
 .contact-info span {
     font-weight: bold;
     color: #dbdbf1;
+    
 }
 
 .social-links {
