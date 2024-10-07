@@ -7,18 +7,18 @@
 }
 body{
    
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(FB_IMG_17167311568459848.jpg);
-        background-size: cover;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(backgound.png);
+        background-size: 100%;
         background-repeat: no-repeat;
-        background-color: black;
-        font-size: 11px;
+      background-color: #011116;
+        font-size: 15px;
        
         
         
 }
 /*about*/
 .container{
-    padding: responsive;
+    
     text-align: center;
     
 
@@ -99,7 +99,7 @@ nav ul li a:hover::after{
 
 }
 header{
-    background-color:#332e2e;
+    background-color:#2f2e33;
     border-radius: 4px;
     
 }
