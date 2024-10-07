@@ -10,13 +10,13 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         background-color: black;
-        font-size: 20px;
+        font-size: 28px;
         
         
 }
 /*about*/
 .container{
-    padding: 10px 4%;
+    padding: responsive;
     text-align: center;
     
 
@@ -37,7 +37,7 @@ nav ul li{
     margin: 10px 6px;
 }
 nav ul li a{
-    color: #fff;
+    color: whitesmoke;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -62,7 +62,7 @@ nav ul li a:hover::after{
     margin-left: 25px;
     font-size: 15px;
     color: antiquewhite;
-    text-shadow: #ae00ff;
+   
     
 
 }
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     font-size: 25px;
     margin-top: 20px;
     text-align: center;
-    color: antiquewhite;
+    color: whitesmoke;
     padding-top: 6px;
 
  
@@ -87,7 +87,7 @@ nav ul li a:hover::after{
 
 }
 .aboutm h5{
-    color:#ae00ff;
+    color:whitesmoke;
 
 }
 
@@ -137,7 +137,7 @@ h1 {
 }
 
 .service h2 {
-    color: #7c37fc;
+    color: aqua;
 }
 
 .service p {
@@ -173,7 +173,7 @@ footer {
 
 h1 {
     text-align: center;
-    color: #1fa5ce;
+    color: whitesmoke;
     padding-top: 10%;
 }
 
@@ -212,12 +212,16 @@ h1 {
 }
 
 .social-links a:hover {
-    color: #1dfc00;
+    color: brown;
 }
 
 .social-links i {
     vertical-align: middle;
 }
+
+
+
+
 html{
     scroll-behavior: smooth;
     
