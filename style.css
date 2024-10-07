@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+   
 }
 body{
    
@@ -10,7 +11,8 @@ body{
         background-size: cover;
         background-repeat: no-repeat;
         background-color: black;
-        font-size: 28px;
+        font-size: 11px;
+       
         
         
 }
@@ -103,7 +105,7 @@ header{
 }
 /*services*/
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -115,17 +117,17 @@ h1 {
 
 .services {
     display: flex;
-    justify-content: space-around;
+  
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 .service {
     
     border: 1px solid #ddd;
     border-radius: 25px;
-    padding: 20px;
-    margin: 10px;
+    padding: 20px 20px;
+    margin: 15px 15px;
     flex: 1;
     min-width: 300px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -163,7 +165,7 @@ footer {
     padding: 10px;
     background-color: gray(77, 74, 69);
     border-radius: 8px;
-    font-size: x-large;
+    font-size: 20px;
     
   
    
@@ -181,8 +183,9 @@ h1 {
     padding-top: 4%;
     font-size: 18px;
     margin: 10px 60px;
+    color: aqua;
     
-    font-size: 19px;
+    font-size: 12px;
     text-align: center;
 }
 
