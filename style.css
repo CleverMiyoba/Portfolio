@@ -7,7 +7,7 @@
 }
 body{
    
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(backgound.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(Background\ web.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
       background-color: #011116;
@@ -28,6 +28,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
 }
 .logo{
     width: 40px;
@@ -99,8 +100,14 @@ nav ul li a:hover::after{
 
 }
 header{
-    background-color:#2f2e33;
+  color: white;
     border-radius: 4px;
+    background-color: #024753;
+    padding: 20px;
+    width: 100%;
+    border-bottom-style: solid ;
+    border-color: #fcfcfc;
+    
     
 }
 /*services*/
@@ -228,5 +235,12 @@ h1 {
 html{
     scroll-behavior: smooth;
     
+}
+
+.BgColor{
+ background-color: white;
+ color: black;
+ border: #1fa5ce;
+ border-radius: 1px purple;
 }
 
