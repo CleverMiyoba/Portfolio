@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Helvetica;
     box-sizing: border-box;
    
 }
@@ -28,8 +28,22 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
+   
+    transition: all 0.3s;
 }
+
+.sticky {
+    background-color: #1900ffcc;
+    color: #011116;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgb(0, 0, 0); 
+    padding: 0.9%;
+}
+
 .logo{
     width: 40px;
 
@@ -51,7 +65,7 @@ nav ul li a::After{
     content: '';
     width: 0;
     height: 3px;
-    background:aqua;
+    background:rgba(255, 94, 0, 0.747);
     position: absolute;
     left: 0;
 bottom: -6px;
@@ -71,17 +85,28 @@ nav ul li a:hover::after{
 }
 
  .header-text h1{
-    font-size: 25px;
-    margin-top: 20px;
-    text-align: center;
-    color: whitesmoke;
-    padding-top: 6px;
+    
+    
+    font-size: 2em;
+    animation: fadeIn 5s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
  
 
-}
+
  span{
-    color: aqua;
+    color: rgba(255, 105, 5, 0.678);
 }
 
 
@@ -106,7 +131,7 @@ header{
     padding: 20px;
     width: 100%;
     border-bottom-style: solid ;
-    border-color: #fcfcfc;
+    border-color: #ff00007c;
     
     
 }
@@ -123,6 +148,7 @@ h1 {
 }
 
 .services {
+    
     display: flex;
   
     flex-wrap: wrap;
@@ -131,6 +157,7 @@ h1 {
 
 .service {
     
+    
     border: 1px solid #ddd;
     border-radius: 25px;
     padding: 20px 20px;
@@ -138,6 +165,7 @@ h1 {
     flex: 1;
     min-width: 300px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     
 }
 .service  :hover{
@@ -180,7 +208,14 @@ footer {
   
 }
 
+
+
+
+
+
+
 h1 {
+    
     text-align: center;
     color: whitesmoke;
     padding-top: 10%;
@@ -244,3 +279,68 @@ html{
  border-radius: 1px purple;
 }
 
+#sub1{
+display: block;
+color: #5120ac;
+}
+.navBar ul li a::After.sub1{
+    display: block;
+    position: absolute;
+}
+#Search{
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 5px;
+   cursor: blink;
+   width: 60%;
+}
+#Sbtn{
+    border-radius: 4px;
+    background-color: #ffffffe5;
+    padding: 4.5px;
+   width: 50px;
+    margin-right: 10%;
+    font-size: x-small;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+#Sbtn :hover{
+    color: #ff5e00;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   color: #ffffff;
+   margin: 0;
+}
+#clock{
+   font-family: monospace; 
+   font-size: 2.5rem;
+   font-weight: bold;
+   text-align: center;
+   color: #ffffff;
+   backdrop-filter: blur(100px);
+ 
+}
+#CurrentT{
+    text-align: center;
+    color: #ff5e00;
+}
+#date-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   color: #ffffff;
+   margin: 0;
+}
+#date{
+    font-family: monospace; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    backdrop-filter: blur(100px); 
+}
