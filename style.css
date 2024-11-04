@@ -33,7 +33,7 @@ nav{
 }
 
 .sticky {
-    background-color: #1900ffcc;
+    background-color: #054052;
     color: #011116;
     position: fixed;
     top: 0;
@@ -42,10 +42,15 @@ nav{
     z-index: 1000; 
     box-shadow: 0 2px 5px rgb(0, 0, 0); 
     padding: 0.9%;
+    font-size: 25px;
+    border-top-left-radius:  8px;
+    border-bottom-right-radius:  18px;
+    
 }
 
 .logo{
     width: 40px;
+    
 
 }
 nav ul li{
@@ -65,7 +70,7 @@ nav ul li a::After{
     content: '';
     width: 0;
     height: 3px;
-    background:rgba(255, 94, 0, 0.747);
+    background-color: rgb(8, 209, 8);
     position: absolute;
     left: 0;
 bottom: -6px;
@@ -106,12 +111,12 @@ nav ul li a:hover::after{
 
 
  span{
-    color: rgba(255, 105, 5, 0.678);
+    color:rgb(224, 190, 35);
 }
 
 
 .aboutm h6{
-    color: aqua;
+    color: rgb(255, 255, 255);
 
 }
 .aboutm h5{
@@ -120,18 +125,20 @@ nav ul li a:hover::after{
 }
 
 .aboutm h1{
-    color:aquamarine;
+    color:whitesmoke;
     padding-top: 10px;
 
 }
 header{
   color: white;
     border-radius: 4px;
-    background-color: #024753;
-    padding: 20px;
+    background-color: #03686d;
+    padding: 10px;
     width: 100%;
     border-bottom-style: solid ;
-    border-color: #ff00007c;
+    border-color: #3c3c3c;
+    border-top-left-radius:  8px;
+    border-bottom-right-radius:  18px;
     
     
 }
@@ -174,7 +181,7 @@ h1 {
 }
 
 .service h2 {
-    color: aqua;
+    color: rgb(8, 209, 8);
 }
 
 .service p {
@@ -225,7 +232,7 @@ h1 {
     padding-top: 4%;
     font-size: 18px;
     margin: 10px 60px;
-    color: aqua;
+    color: rgb(8, 209, 8);
     
     font-size: 12px;
     text-align: center;
@@ -257,7 +264,7 @@ h1 {
 }
 
 .social-links a:hover {
-    color: brown;
+    color: blue;
 }
 
 .social-links i {
@@ -272,17 +279,9 @@ html{
     
 }
 
-.BgColor{
- background-color: white;
- color: black;
- border: #1fa5ce;
- border-radius: 1px purple;
-}
 
-#sub1{
-display: block;
-color: #5120ac;
-}
+;
+
 .navBar ul li a::After.sub1{
     display: block;
     position: absolute;
@@ -314,19 +313,21 @@ color: #5120ac;
     
    color: #ffffff;
    margin: 0;
+   
 }
 #clock{
    font-family: monospace; 
-   font-size: 2.5rem;
+   font-size: 1.5rem;
    font-weight: bold;
    text-align: center;
    color: #ffffff;
    backdrop-filter: blur(100px);
+   
  
 }
 #CurrentT{
     text-align: center;
-    color: #ff5e00;
+    color: rgb(8, 209, 8);;
 }
 #date-container{
     display: flex;
@@ -338,7 +339,7 @@ color: #5120ac;
 }
 #date{
     font-family: monospace; 
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
     text-align: center;
     color: #ffffff;
