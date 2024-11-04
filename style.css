@@ -8,7 +8,7 @@
 body{
    
         background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(Background\ web.jpg);
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
       background-color: #011116;
         font-size: 15px;
@@ -33,7 +33,7 @@ nav{
 }
 
 .sticky {
-    background-color: #054052;
+    background-color: #0077b6;
     color: #011116;
     position: fixed;
     top: 0;
@@ -111,7 +111,7 @@ nav ul li a:hover::after{
 
 
  span{
-    color:rgb(224, 190, 35);
+    color:#00b4d8;
 }
 
 
@@ -132,7 +132,7 @@ nav ul li a:hover::after{
 header{
   color: white;
     border-radius: 4px;
-    background-color: #03686d;
+    background-color: #03045e;
     padding: 10px;
     width: 100%;
     border-bottom-style: solid ;
@@ -181,7 +181,7 @@ h1 {
 }
 
 .service h2 {
-    color: rgb(8, 209, 8);
+    color:#90e0ef;
 }
 
 .service p {
@@ -232,7 +232,7 @@ h1 {
     padding-top: 4%;
     font-size: 18px;
     margin: 10px 60px;
-    color: rgb(8, 209, 8);
+    color: #90e0ef;
     
     font-size: 12px;
     text-align: center;
@@ -327,7 +327,7 @@ html{
 }
 #CurrentT{
     text-align: center;
-    color: rgb(8, 209, 8);;
+    color: #caf0f8;
 }
 #date-container{
     display: flex;
