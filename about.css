@@ -1,18 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
+body{
+   
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(IMG_0595.JPG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  background-color: #020208;
+  
+    font-size: 15px;
+   
+    
+    
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.wrapped-image {
-    float: left;
-    margin: 0 15px 15px 0;
-    border: 2px solid #ddd;
+header {
+    background-color: #000000;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 p {
-    line-height: 1.6;
+    color: rgb(221, 208, 208);
+    font-size: 16px;
+    text-align: center;
 }
+
+span{
+    color: aqua;
+}
+/*about*/
+#about{
+    padding: 800px;
+  
+}
+.aboutm h6{
+    color: aqua;
+    text-align: center;
+
+}
+.aboutm h5{
+    color:#e0dee9;
+    text-align: center;
+
+}
+
+.aboutm h1{
+    color:aquamarine;
+    text-align: center;
+
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: #09423f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+  }
+  
+  .home-button:hover {
+    background-color: #2f1079;
+  }
+
+
+    
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+   background-color: #000000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 4px;
+}
+
