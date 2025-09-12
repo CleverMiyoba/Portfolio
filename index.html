@@ -1,99 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIYOBA</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MIYOBA | CM Technologies</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
-    <header id="header">
-        <nav class ="navBar">
-            <img src="logo.png" class="logo">
-           
-            <div class="search-container">
-                <input type="text" class="search-input" placeholder="Search...">
-                <button class="search-button" onclick="alert('Searching!')">Search!</button>
-              </div>            
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="Services.html">Services</a></li>
-             <li><a href="contact.html">Contact</a></li>
-             <li><a href="https://www.aljazeera.com/">News</a>
-             <li><a href="about.htm">About </a></li>
-             
-            </li>
-            </ul>
-           
-        </nav>
 
-        
-    </header>
+  <!-- Header -->
+  <header id="header">
+    <nav class="navBar container">
+      <img src="logo.png" alt="CM Technologies Logo" class="logo" />
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="https://www.aljazeera.com/" target="_blank">News</a></li>
+        <li><a href="index.php">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-   
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <p><span>CM</span> TECHNOLOGIES</p>
+      <h1>Hello, I'm <span>Clever Miyoba</span><br />CEO of CM Technologies</h1>
 
-            <div class="header-text">
-                <p><span>CM </span>TECHNOLOGIES</p><br>
-               
-                    
-                <h1 id="header-text h1">Hello, I'm <span>Clever Miyoba</span> <br>CM TECHNOLOGIES CEO</h1>  
-                <br>
-                <br>
-                <br>
-                
-                <h5 id="CurrentT">Date / Time </h5>  
-                <div id="clock-container">
-                <div id="clock">00:00:00</div>
-              
-               
-            </div>
-            </div>
-          
-            <br>
-            <div id="date-container">
-                <div id="date">00/00/0000</div>
-                
-            </div>
-           
-            <br>
-           
-            </div>
-<div id="weatherInfo"></div>
-        </div>
-    </div>
-    <div class="chat-container">
-        
+      <h5 id="CurrentT">Date / Time</h5>
+      <div id="clock-container">
+        <div id="clock">00:00:00</div>
       </div>
-   
-                    <div class="social-links">
-                        <h5 id="CurrentT">Follow Us  </h5> 
-                        <a href="https://web.facebook.com/profile.php?id=100050249951946" target="_blank" title="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="https://wa.me/qr/B5UPL6V5FKCQI1" target="+260768656643" title="WhatsApp">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
-                        <a href="https://www.instagram.com/clever_miyoba/profilecard/?igsh=MXBtbTJraW15dnI3aw==" target="_blank" title="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://x.com/yourprofile" target="_blank" title="X">
-                            <i class="fab fa-twitter"></i> 
-                        </a>
-                        
-                    </div>
-
-
-
-               </section>
-
-            </div>
-        </div>
+      <div id="date-container">
+        <div id="date">00/00/0000</div>
+      </div>
     </div>
-    <footer>
-        <p>© 2025 CM Technologies. All rights reserved.</p>
-      </footer>
-      <script src="style.js"></script>
+  </section>
+
+  <!-- Weather Info Placeholder -->
+  <section id="weatherInfo" class="container"></section>
+
+  <!-- Optional Chat Container -->
+  <div class="chat-container container"></div>
+
+  <!-- Social Media Links -->
+  <section class="social-links">
+    <h5>Follow Us</h5>
+    <a href="https://web.facebook.com/profile.php?id=100050249951946" target="_blank" title="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://wa.me/qr/B5UPL6V5FKCQI1" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.instagram.com/clever_miyoba/profilecard/?igsh=MXBtbTJraW15dnI3aw==" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://x.com/yourprofile" target="_blank" title="X / Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CM Technologies. All rights reserved.</p>
+  </footer>
+
+  <script src="style.js"></script>
 </body>
 </html>
